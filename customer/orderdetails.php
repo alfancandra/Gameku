@@ -85,7 +85,16 @@ $singlecustomer = $customer->single_customer($customerid);
                           <td><img src="admin/products/<?php echo $result->IMAGES ?>"  width="50px" height="50px"></td>
                           <td><?php echo $result->PRODESC ; ?></td>
                           <td align="center"><?php echo $_SESSION['gcCart'][$i]['qty']; ?></td>
-                          <td align="center"><input type="text" name="PLACE" placeholder="Contoh : Shippu#0000" required></td>
+                          <?php 
+                          $pos = strpos($result->CATEGORIES,'Akun');
+                          if ($pos === false) {
+                          echo "
+                          <td align='center'><input type='text' name='PLACE' placeholder='Contoh : Shippu#0000' required></td>";
+                          }else{
+                            echo "
+                          <td align='center'><input type='hidden' name='PLACE' value='".$result->PRODESC."'></td>";
+                          }
+                          ?>
                           <td> <?php echo  $result->PRODISPRICE ?></td>
                           <td> <output><?php echo $_SESSION['gcCart'][$i]['price']?></output></td>
                         </tr>
@@ -94,6 +103,8 @@ $singlecustomer = $customer->single_customer($customerid);
                         }
 
                       }
+                }else{
+                  redirect(web_root."index.php");
                 }
               ?>
             
