@@ -92,7 +92,7 @@ $singlecustomer = $customer->single_customer($customerid);
                           <td align='center'><input type='text' name='PLACE' placeholder='Contoh : Shippu#0000' required></td>";
                           }else{
                             echo "
-                          <td align='center'><input type='hidden' name='PLACE' value='".$result->PRODESC."'></td>";
+                          <td align='center'><input type='text' name='PLACE' placeholder='Masukan No.Hp atau Email' required></td>";
                           }
                           ?>
                           <td> <?php echo  $result->PRODISPRICE ?></td>
