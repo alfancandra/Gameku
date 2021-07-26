@@ -403,5 +403,5 @@ $('#date_picker').datetimepicker({
   
   
 </body> 
-      <footer><p  style="text-align: center;font-weight: bold;">Copyright &copy; Bachelor of Science and Entrepreneurs </p></footer>
+      <footer><p  style="text-align: center;font-weight: bold;">AkunGame </p></footer>
 </html>
