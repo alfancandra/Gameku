@@ -190,7 +190,7 @@
                                            <label class="col-md-4" align = "right"for=
                                           "image"></label>
                                           <div class="col-md-8">
-                                        <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />
+                                        <p>  Saya telah menyetujui Persyaratan & Ketentuan Akungame <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />
                                            
                                            
                                           </div>
