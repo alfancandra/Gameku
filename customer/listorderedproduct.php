@@ -234,14 +234,15 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
 		  <div class="row">
 		  	<?php
 		  	if($cur->PAYMENTMETHOD=='BANK TRANSFER' || $cur->PAYMENTMETHOD=='OVO' && $cur->ORDEREDSTATS=='Pending'){
-		  	echo "<h3>Silahkan Transfer</h3>";
+		  	echo "";
 		  	}
 		  	?>
 		  	<table style="border-bottom: 1px solid red;border-top: 1px solid red;">
 		  		
 	  		<?php
 		  	if($cur->PAYMENTMETHOD=='BANK TRANSFER' && $cur->ORDEREDSTATS=='Pending'){
-		  		echo "<tr>
+		  		echo "<h3>Silahkan Transfer</h3>
+		  		<tr>
 		  		<td>BANK</td>
             	<td>:</td>
             	<td>BRI</td>
@@ -257,7 +258,8 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
             	<td>5137782123</td>
             	</tr>";
 		  	}elseif($cur->PAYMENTMETHOD=='OVO' && $cur->ORDEREDSTATS=='Pending'){
-		  		echo "<tr>
+		  		echo "<h3>Silahkan Transfer</h3>
+		  		<tr>
             			<td>Payment</td>
             			<td>:</td>
             			<td>OVO</td>

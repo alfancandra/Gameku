@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Gameku</title>
+    <title>Home | AkunGame</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -130,7 +130,7 @@ if (isset($_SESSION['gcCart'])){
         <div class="row">
           <div class="col-sm-2">
             <div class="companyinfo">
-              <h2><span></span>GAMEKU</h2>
+              <h2><span></span>AkunGame</h2>
             </div>
           </div>
           <div class="col-sm-7">
