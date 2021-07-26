@@ -5,22 +5,11 @@ if(!isset($_SESSION['USERID'])){
 }
 
 $view = (isset($_GET['view']) && $_GET['view'] != '') ? $_GET['view'] : '';
- $title="Admin"; 
+ $title="Pelanggan"; 
  $header=$view; 
 switch ($view) {
 	case 'list' :
 		$content    = 'list.php';		
-		break;
-
-	case 'add' :
-		$content    = 'add.php';		
-		break;
-
-	case 'edit' :
-		$content    = 'edit.php';		
-		break;
-    case 'view' :
-		$content    = 'view.php';		
 		break;
 
 	default :

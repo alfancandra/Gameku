@@ -154,6 +154,10 @@ $singleuser = $user->single_user($_SESSION['USERID']);
                         <?php if ($_SESSION['U_ROLE']=='Administrator') {
                             # code...
                         ?>
+                        <li>
+                             <a href="<?php echo web_root; ?>admin/pelanggan/index.php" ><i class="fa fa-list-alt fa-fw"></i>  Data Pelanggan </a>
+            
+                        </li>
                          <li>
                              <a href="<?php echo web_root; ?>admin/settings/index.php" ><i class="fa fa-list-alt fa-fw"></i>  Setting </a>
             
@@ -163,7 +167,7 @@ $singleuser = $user->single_user($_SESSION['USERID']);
             
                         </li> -->
                           <li>
-                            <a href="<?php echo web_root; ?>admin/user/index.php" ><i class="fa fa-user fa-fw"></i> Users </a>
+                            <a href="<?php echo web_root; ?>admin/user/index.php" ><i class="fa fa-user fa-fw"></i> Admin </a>
                           
                         </li>
                          <li>
