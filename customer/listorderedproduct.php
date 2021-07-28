@@ -255,7 +255,7 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
             	<tr>
             	<td>NO REKENING</td>
             	<td>:</td>
-            	<td>5137782123</td>
+            	<td>019001051764501</td>
             	</tr>";
 		  	}elseif($cur->PAYMENTMETHOD=='OVO' && $cur->ORDEREDSTATS=='Pending'){
 		  		echo "<h3>Silahkan Transfer</h3>

@@ -37,7 +37,7 @@
             		<tr>
             			<td>NO REKENING</td>
             			<td>:</td>
-            			<td>5137782123</td>
+            			<td>019001051764501</td>
             		</tr>
                 <tr>
                   <td>Jumlah yang perlu dibayar</td>
